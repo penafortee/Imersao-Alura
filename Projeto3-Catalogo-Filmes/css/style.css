@@ -1,0 +1,105 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/57/04/33579fed2bb5808.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  display: inline-flex;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-style: bold;
+  font-family: "Roboto Mono", monospace;
+}
+
+.filmes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 150px;
+  flex-wrap: wrap;
+}
+
+.filme {
+  margin: 10px;
+}
+.footer {
+  align-self: center;
+  position: relative;
+}
+
+.titulo-filme {
+  color: #7250ec;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-style: bold;
+  align-items: center;
+}
+
+.filme-imagem {
+  align-items: center;
+  border: solid #7250ec 2px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(138, 43, 226, 0.7);
+}
+
+.titulo-pagina {
+  color: #7250ec;
+  font-family: "Roboto Mono", monospace;
+  font-size: 70px;
+  font-style: bold;
+  align-items: center;
+}
+
+.titulo-pagina {
+  display: inline-flex;
+  align-items: center;
+  border: solid 0px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 3px rgba(138, 43, 226, 0.5);
+}
