@@ -13,8 +13,4 @@ Mas decidi ingressar na área que almejo, então atualmente não estou trabalhan
 
 # Projetos Imersão Alura
 
-Nestes projetos eu participo da Imersão Alura do segundo semestre de 2023, onde coloco em prática os projetos impostos nas aulas.
-
-# Link projeto
-
-📌
+Neste projeto aplicamos outra função em JavaScript, onde criamos um catálogo de filmes.
