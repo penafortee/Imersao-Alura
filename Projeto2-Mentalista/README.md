@@ -7,7 +7,6 @@ Mas decidi ingressar na área que almejo, então atualmente não estou trabalhan
 - 🔭 Atualmente estou trabalhando em alguns projetos pessoais para prática, poderá encontrar em meus repositórios.
 - 🌱 Atualmente estou estudando Desenvolvimento Web - Front-End.
 - 📫 Como entrar em contato comigo:
-- 📞 WhatsApp: (21) 97187-7287
 - 📧E-mail: nathipenaforte@gmail.com
 - 📌Linkedin: https://www.linkedin.com/in/nathalia-freitas-1644031b3/
 
