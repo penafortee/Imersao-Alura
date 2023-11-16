@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Imersão Alura</title>
+    <meta charset="UFT-8" />
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"
+  </head>
+  <body class="body">
+    <h1 class="titulo">Imersão Alura</h1>
+    <nav>
+      <a href="Projeto1-Conversor-Moedas/index.html"
+        >Aula 1 - Projeto Conversor de Moedas</a
+      >
+      -
+      <a href="Projeto2-Mentalista/index.html">Aula 2 - Projeto Mentalista</a>
+    </nav>
+    <section id="conteudo"></section>
+    <footer>
+      <br />
+      <p>Imersão Alura</p>
+    </footer>
+    <script>
+      document.querySelectorAll("[wm-nav]").forEach((link) => {
+        const conteudo = document.getElementById("conteudo");
+
+        link.onclick = function (e) {
+          e.preventDefault();
+          fetch(link.getAttribute("wm-nav"))
+            .then((resp) => resp.text())
+            .then((html) => (conteudo.innerHTML = html));
+        };
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  .body {
+    background: #d3d3d3;
+  }
+
+  a {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: none;
+    text-decoration: none;
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 5px;
+    border: solid black 1px;
+  }
+</style>
