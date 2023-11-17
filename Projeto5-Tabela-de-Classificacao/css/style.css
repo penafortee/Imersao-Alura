@@ -1,0 +1,108 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/57/04/33579fed2bb5808.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.body {
+  padding: 10px;
+  display: block;
+  height: 880px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  position: relative;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+button {
+  background-color: #002351;
+  color: #f6f6f6;
+}
+
+.fallen {
+  display: inline-block;
+  height: 100px;
+}
+
+.footer {
+  align-self: center;
+  position: relative;
+  max-width: 100%;
+}
+
+.footer p {
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-style: bold;
+  font-family: "Roboto Mono", monospace;
+}
+
+tr {
+  font-size: 19px;
+  font-style: bold;
+  align-items: center;
+  border: solid 0px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 3px rgba(138, 43, 226, 0.5);
+}
+
+.jogador-img {
+  height: 100px;
+  width: 100px;
+}
+
+.thead p {
+  align-items: center;
+  padding: 5px;
+  color: black;
+}
