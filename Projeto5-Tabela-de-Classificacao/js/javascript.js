@@ -96,7 +96,7 @@ function exibirNaTela() {
       <td>${chelo.kd}</td>
       <td>${chelo.headshot}</td>
       <td>${chelo.time}</td>
-  <td><button onClick="adicionarVitoria(arte)">Atualizar Vitória</button></td>
+  <td><button onClick="adicionarVitoria(chelo)">Atualizar Vitória</button></td>
 </tr>
 <td><img class = 'jogador-img' src="${yuurih.imagem}" alt="Imagem de ${yuurih.nome}" width="50"></td>
       <td>${yuurih.nome}</td>
@@ -105,7 +105,7 @@ function exibirNaTela() {
       <td>${yuurih.kd}</td>
       <td>${yuurih.headshot}</td>
       <td>${yuurih.time}</td>
-  <td><button onClick="adicionarVitoria(arte)">Atualizar Vitória</button></td>
+  <td><button onClick="adicionarVitoria(yuurih)">Atualizar Vitória</button></td>
 </tr>
   `;
 }
